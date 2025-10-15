@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Vehicle Service Management</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Vehicle Service Management</div>
+    <div class="actions">
+      <button id="logout-btn" class="secondary">Logout</button>
+    </div>
+  </header>
+  <main class="container dashboard-grid">
+    <section class="left-panel">
+      <div class="card" id="profile-card">
+        <h2>Profile</h2>
+        <div id="profile-content"></div>
+        <div class="row gap" id="profile-actions"></div>
+      </div>
+      <div class="card">
+        <h2>Vehicles</h2>
+        <button id="add-vehicle-btn">Add Vehicle</button>
+      </div>
+    </section>
+    <section class="right-panel">
+      <div class="card">
+        <h2>Your Vehicles</h2>
+        <div id="vehicles-list" class="cards"></div>
+      </div>
+      <div class="card">
+        <h2>Service History</h2>
+        <div id="service-history"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal-root" class="modal-root hidden"></div>
+  <div id="global-spinner" class="spinner hidden"></div>
+  <div id="notify-root" class="notify-root"></div>
+</body>
+</html>
+

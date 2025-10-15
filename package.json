@@ -1,0 +1,25 @@
+{
+  "name": "vehicle-service-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Vehicle Service Management System using Node.js, vanilla JS, HTML, CSS, and PostgreSQL",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "express",
+    "postgresql",
+    "jwt",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0"
+  }
+}
+
